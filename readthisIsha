@@ -1,0 +1,5 @@
+$b64 = [Convert]::ToBase64String([IO.File]::ReadAllBytes("C:\Users\VICTUS\Downloads\sample2-Cybersecurity Incident Report.docx"))
+
+
+
+$b64 | Set-Clipboard
